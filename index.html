@@ -3,53 +3,67 @@
 <head>
     <link rel="stylesheet" href="styles.css">
     <style>
-        body {
+         body {
             background-color: powderblue;
             text-align: center;
         }
         h1 {
             text-align: center;
         }
-       
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
 
-button {
-  background: #5E5DF0;
-  border-radius: 999px;
-  box-shadow: #5E5DF0 0 10px 20px -10px;
-  box-sizing: border-box;
-  color: #FFFFFF;
-  cursor: pointer;
-  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 24px;
-  opacity: 1;
-  outline: 0 solid transparent;
-  padding: 8px 18px;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  width: fit-content;
-  word-break: break-word;
-  border: 0;
-  margin-bottom: 2px; /* Add 2px margin at the bottom */
-}
-        
+        button {
+            background: #5E5DF0;
+            border-radius: 999px;
+            box-shadow: #5E5DF0 0 10px 20px -10px;
+            box-sizing: border-box;
+            color: #FFFFFF;
+            cursor: pointer;
+            font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 24px;
+            opacity: 1;
+            outline: 0 solid transparent;
+            padding: 8px 18px;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            width: fit-content;
+            word-break: break-word;
+            border: 0;
+            margin-bottom: 2px;
+        }
+
         .center {
             display: block;
             margin-left: auto;
             margin-right: auto;
         }
+
         .container {
             position: relative;
             width: 100%;
-            margin-top: 20px; /* Add margin between container and content */
+            margin-top: 20px; 
         }
+
         .left, .right {
             width: 33%;
             display: inline-block;
             vertical-align: top;
             position: relative;
+            margin-bottom: 20px;
+        }
+        .driver-info {
+            margin-bottom: 40px;
         }
     </style>
 </head>
@@ -57,10 +71,11 @@ button {
 
 <h1>Formula 1</h1>
 <img src="https://logodownload.org/wp-content/uploads/2016/11/formula-1-logo-2-1.png" width="350" height="100" class="center">
+<div class="container driver-info">
 <p> formula viens, kas bieži tiek saīsināta kā F1, ir motosporta sacīkšu virsotne. Tajā ir tehnoloģiski vismodernākās un ātrākās vienvietīgās automašīnas pasaulē, kas sacenšas vairākās sacīkstēs, kas pazīstamas kā Grand Prix. Šīs sacīkstes notiek trasēs, kas aptver visu pasauli, no tādām ikoniskām trasēm kā Monza un Monako līdz modernām norises vietām tādās vietās kā Bahreina un Singapūra.</p>
 <p>F1 piesaista labākos sacīkšu talantus no visas pasaules, pilotiem sacenšoties par tādām prestižām komandām kā Mercedes, Ferrari, Red Bull Racing un McLaren. Šis sporta veids apvieno ātrumu, prasmes, stratēģiju un jaunākās tehnoloģijas, padarot to par aizraujošu izrādi miljoniem fanu visā pasaulē.</p>
 <p>Katra Formula 1 sezona sastāv no vairākām sacīkstēm, kurās braucēji uzkrāj punktus, pamatojoties uz viņu finiša pozīcijām. Par Pasaules braucēju čempionu un par pasaules konstruktoru čempionu attiecīgi tiek kronēts braucējs un konstruktors (komanda), kurš sezonas beigās ieguvis visvairāk punktu.</p>
-
+</div>
 <div class="container">
     <div class="left">
         <a href="Ferrari.html"> 
@@ -83,7 +98,111 @@ button {
         <img src="https://cdn-3.motorsport.com/images/mgl/Y99JQRbY/s8/red-bull-racing-logo-1.jpg" width="300" height="150" class="center">
     </div>
 </div>
-<a href="try.html">
-    <button>try spēles</button>
+
+<table>
+    <thead>
+      <tr>
+        <th>F1 Constructors</th>
+        <th>2019</th>
+        <th>2020</th>
+        <th>2021</th>
+        <th>2022</th>
+        <th>2023</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Red bull</td>
+        <td>3</td>
+        <td>2</td>
+        <td>2</td>
+        <td>1</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Ferrari</td>
+        <td>2</td>
+        <td>6</td>
+        <td>3</td>
+        <td>2</td>
+        <td>3</td>
+      
+      </tr>
+      <tr>
+        <td>Mercedes</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>3</td>
+        <td>2</td>
+        
+      </tr>
+      <tr>
+        <td>McLaren</td>
+        <td>4</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>4</td>
+     
+      </tr>
+      <tr>
+        <td>Aston Martin</td>
+        <td>5</td>
+        <td>5</td>
+        <td>7</td>
+        <td>7</td>
+        <td>5</td>
+     
+      </tr>
+      <tr>
+        <td>Kick Sauber</td>
+        <td>8</td>
+        <td>8</td>
+        <td>9</td>
+        <td>6</td>
+        <td>9</td>
+     
+      </tr>
+      <tr>
+        <td>Visa Cash App RB</td>
+        <td>6</td>
+        <td>7</td>
+        <td>6</td>
+        <td>9</td>
+        <td>8</td>
+     
+      </tr>
+      <tr>
+        <td>Williams </td>
+        <td>10</td>
+        <td>10</td>
+        <td>8</td>
+        <td>10</td>
+        <td>7</td>
+     
+      </tr>
+      <tr>
+        <td>Alpine</td>
+        <td>7</td>
+        <td>4</td>
+        <td>5</td>
+        <td>4</td>
+        <td>6</td>
+     
+      </tr>
+      <tr>
+        <td> Haas </td>
+        <td>9</td>
+        <td>9</td>
+        <td>10</td>
+        <td>8</td>
+        <td>10</td>
+     
+      </tr>
+    </tbody>
+</table>
+
+</a>
 </body>
 </html>

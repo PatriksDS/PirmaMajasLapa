@@ -1,3 +1,22 @@
+body {
+  background-color: powderblue;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
 
 button {
   background: #5E5DF0;
@@ -19,17 +38,27 @@ button {
   width: fit-content;
   word-break: break-word;
   border: 0;
+  margin-bottom: 2px; 
 }
-    
 
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
-  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.container {
+  position: relative;
+  width: 100%;
+  margin-top: 20px; 
+}
 
+.left, .right {
+  width: 33%;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  margin-bottom: 20px; 
+}
 
     
